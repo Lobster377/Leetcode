@@ -62,9 +62,5 @@ public class LongestPalindromicSubstring {
 		return ret;
     }
 	
-	public static void main(String[] args) {
-		String ret = new LongestPalindromicSubstring().longestPalindrome("bb");
-		System.out.println(ret);
-	}
 }
  

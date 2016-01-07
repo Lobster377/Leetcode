@@ -25,10 +25,4 @@ public class ReverseInteger {
         return (int)ret;
 	}
 	
-	
-	
-	public static void main(String[] args) {
-		long i = new ReverseInteger().reverse(1534236469);
-		System.out.println(i);
-	}
 }

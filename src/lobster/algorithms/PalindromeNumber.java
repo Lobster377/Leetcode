@@ -26,7 +26,4 @@ public class PalindromeNumber {
 	
 	}
 	
-	public static void main(String[] args) {
-		new PalindromeNumber().isPalindrome(-2147447412);
-	}
 }

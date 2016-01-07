@@ -34,8 +34,4 @@ public class LongestSubstringWithoutRepeatingCharacters {
 		return max;
     }
 	
-	public static void main(String[] args) {
-		int s = new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("dvdf");
-		System.out.println(s);
-	}
 }
