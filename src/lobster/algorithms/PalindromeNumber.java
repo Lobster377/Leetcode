@@ -1,5 +1,10 @@
 package lobster.algorithms;
 
+/**
+ * Determine whether an integer is a palindrome. Do this without extra space.
+ * @author lobster
+ *
+ */
 public class PalindromeNumber {
 	public boolean isPalindrome(int x) {
 		if(x<0){
