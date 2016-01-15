@@ -23,6 +23,7 @@ import java.util.Stack;
  *
  */
 public class ReverseNodesInKGroup {
+	//待优化
     public ListNode reverseKGroup(ListNode head, int k) {
     	if(k==1 || head == null) {
     		return head;
@@ -31,7 +32,10 @@ public class ReverseNodesInKGroup {
     	ListNode p = head;
     	ListNode h = null;
     	int n = 0;
-    	while(n!=k&&p!=null) {
+    	while(n!=k) {
+    		if(p == null) {
+    			return head;
+    		}
     		st.push(p);
     		p=p.next;
     		n++;

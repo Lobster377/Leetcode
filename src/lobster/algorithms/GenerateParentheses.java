@@ -18,7 +18,7 @@ import java.util.Set;
  *
  */
 public class GenerateParentheses {
-	//need to optimized
+	//待优化
     public List<String> generateParenthesis(int n) {
         Map<Integer,Set<String>> map = new HashMap<Integer,Set<String>>();
         for(int i =1;i<=n;i++) {
